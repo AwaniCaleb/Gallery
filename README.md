@@ -32,9 +32,9 @@ Open the provided local URL in your browser.
    npm run build
 
 ## How to Customize
-1. **Images**: Add your images to the `/src/assets` folder.
+1. **Images**: Add your images to the `/src/assets/images/static` folder.
 2. **Gallery Layout**: Update the `index.html` file using Bootstrap's grid system.
-3. **Styling**: Modify the `/src/styles/style.css` file for custom styles.
+3. **Styling**: Modify the `/src/styles/` file for custom styles.
 
 ## Deployment
 1. Push the project to your GitHub repository.
