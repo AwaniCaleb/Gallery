@@ -1,0 +1,55 @@
+@import "./color.css";
+
+.ease {transition: .3s all ease;;}
+.primary-text, .hover-primary-text:hover {color: var(--primary-color) !important;} 
+
+.scroll-animate {
+    transition: .3s ease !important;
+}
+
+.not-in-view {
+    opacity: 0 !important;
+    transform: translateY(30px) !important;
+}
+
+.in-view {
+    opacity: 1 !important;
+    transform: translateY(0) !important;
+}
+
+.font-quicksand {
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.page-side-navigation li a.active,
+#page-side-navigation li a.active {
+    color: var(--primary-color) !important;
+}
+
+.gallery-item {
+    height: 300px !important;
+}
+
+.gallery-item::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    opacity: 0;
+    height: 100%;
+    width: 100%;
+    transition: .2s all ease;
+    backdrop-filter: blur(10px);
+    background: rgba(0, 0, 0, 0.71);
+}
+
+.gallery-item:hover::after {
+    opacity: 1 !important;
+}
+
+.gallery-item:hover .gallery-item-descripition {
+    margin: 0 !important;
+    opacity: 1 !important;
+}

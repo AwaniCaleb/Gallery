@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Primary Meta Tags -->
+    <title>About / Gallery | Awani Caleb</title>
+    <meta name="description"
+        content="Learn more about Awani Caleb and the vision behind this stunning gallery of photography and creative works.">
+    <meta name="author" content="Awani Caleb">
+    <meta name="keywords" content="about, gallery, Awani Caleb, photography, artwork, Bootstrap, Vite">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://ac-gallery.vercel.app/about.html">
+    <meta property="og:title" content="About / Gallery | Awani Caleb">
+    <meta property="og:description"
+        content="Learn more about Awani Caleb and the vision behind this stunning gallery of photography and creative works.">
+    <meta property="og:image" content="https://ac-gallery.vercel.app/assets/images/screenshots/about.png">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://ac-gallery.vercel.app/about.html">
+    <meta name="twitter:title" content="About / Gallery | Awani Caleb">
+    <meta name="twitter:description"
+        content="Learn more about Awani Caleb and the vision behind this stunning gallery of photography and creative works.">
+    <meta name="twitter:image" content="https://ac-gallery.vercel.app/assets/images/screenshots/about.png">
+
+    <!-- Favicon -->
+    <!-- <link rel="icon" href="/favicon.ico" type="image/x-icon"> -->
+
+    <!-- Styles -->
+    <link href="node_modules/@fortawesome/fontawesome-free/css/all.css" rel="stylesheet">
+    <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/src/styles/all.css" rel="stylesheet">
+    <link href="/src/styles/about.css" rel="stylesheet">
+
+    <!-- Scripts -->
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="node_modules/@popperjs/core/dist/umd/popper.min.js"></script>
+    <script src="/src/scripts/all.js"></script>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+</head>
+
+
+<body class="bg-black ">
+    <header>
+        <nav class="navbar bg-black d-lg-none d-bloack">
+            <div class="container-fluid">
+                <a class="navbar-brand text-white text-uppercase fw-bold font-quicksand me-2" href="./">Gallery</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+                    aria-controls="offcanvasRight">
+                    <i class="fa-solid fa-bars text-white"></i>
+                </button>
+            </div>
+        </nav>
+
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title"></h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <ul class="nav flex-column gap-2 mb-5 page-side-navigation">
+                    <li class="nav-item">
+                        <a class="text-uppercase px-0 py-1 nav-link text-secondary fs-4" href="./">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="text-uppercase px-0 py-1 nav-link text-secondary fs-4 active" aria-current="page"
+                            href="./about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="text-uppercase px-0 py-1 nav-link text-secondary fs-4"
+                            href="./contact.html">Contact</a>
+                    </li>
+                </ul>
+
+                <div class="d-flex gap-3">
+                    <a href="#" target="_blank" rel="noopener noreferrer" class="text-secondary fs-4">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="#" target="_blank" rel="noopener noreferrer" class="text-secondary fs-4">
+                        <i class="fa-brands fa-x-twitter"></i>
+                    </a>
+                    <a href="#" target="_blank" rel="noopener noreferrer" class="text-secondary fs-4">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="d-flex justify-content-center">
+        <div class="container-fluid row px-0 h-100 ">
+            <div class="col-lg-10 ps-lg-0" id="left-pane">
+                <div id="page-content-cover" class="d-flex justify-content-center">
+                    <div class="container-fluid row justify-content-center">
+                        <div class="col-lg-6 col-md-6 py-5 px-0">
+                            <div class="me-image-cover mb-5 overflow-hidden rounded-top bg-dark">
+                                <img src="/src/assets/images/static/15.jpg" loading="lazy"
+                                    class="me-image img-fluid w-100 h-100 object-fit-cover" alt="My Image">
+                            </div>
+
+                            <h2 class="text-white font-quicksand scroll-animate mb-4">Hey There! I'm Jane</h2>
+
+                            <p class="scroll-animate text-secondary font-quicksand">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent
+                                libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum
+                                imperdiet. Duis sagittis ipsum. Praesent mauris.
+                            </p>
+                            <p class="scroll-animate text-secondary font-quicksand">
+                                Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget
+                                nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
+                                himenaeos. Curabitur sodales ligula in libero. Sed dignissim lacinia nunc.
+                            </p>
+                            <p class="scroll-animate text-secondary font-quicksand">
+                                Cras mattis consectetur purus sit amet fermentum. Maecenas faucibus mollis interdum.
+                                Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus
+                                magna, vel scelerisque nisl consectetur et.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="page-footer">
+                    <div class="p-3 text-center">
+                        <p class="text-secondary">Copyright &copy;2024 All rights reserved. Designed by and created by
+                            <a href="https://ac-profile-card.vercel.app/" target="_blank" rel="noopener noreferrer"
+                                class="primary-text text-decoration-none">Awani Caleb</a>
+                        </p>
+                        <p class="small text-secondary ">
+                            The images used on this site are sourced from platforms like Pexels, Unsplash, and others.
+                            All rights to these images belong to their respective photographers. If you are the owner of
+                            any image and would like it removed, please contact me.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-2 d-lg-flex d-none position-sticky top-0 h-100" id="right-pane">
+                <div class="w-100 py-5 px-2" id="page-side-navigation-cover">
+                    <h1 class="h5 text-end text-uppercase font-quicksand mb-4 text-white fw-bolder ">Gallery</h1>
+
+                    <ul class="nav flex-column text-end gap-2 mb-5" id="page-side-navigation">
+                        <li class="nav-item">
+                            <a class="text-uppercase px-0 py-1 small nav-link text-secondary" href="./">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="text-uppercase px-0 py-1 small nav-link text-secondary active" aria-current="page"
+                                href="./about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="text-uppercase px-0 py-1 small nav-link text-secondary"
+                                href="./contact.html">Contact</a>
+                        </li>
+                    </ul>
+
+                    <div class="d-flex gap-3 justify-content-end ">
+                        <a href="#" target="_blank" rel="noopener noreferrer" class="text-secondary">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                        <a href="#" target="_blank" rel="noopener noreferrer" class="text-secondary">
+                            <i class="fa-brands fa-x-twitter"></i>
+                        </a>
+                        <a href="#" target="_blank" rel="noopener noreferrer" class="text-secondary">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
